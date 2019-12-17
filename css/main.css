@@ -2605,7 +2605,7 @@ footer .copyright span:last-child::after {
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: block;
 }
 
 /* Next & previous buttons */
