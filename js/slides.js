@@ -1,9 +1,9 @@
 /*---------------------------------------------------- */
 /* Photo Slideshow
 ------------------------------------------------------ */
+var slideIndex = 1;
 function initSlides(){
-  var slideIndex = 1;
-  showSlides(slideIndex);
+  showSlides(1);
 }
 
 // Next/previous controls
