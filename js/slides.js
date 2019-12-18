@@ -2,23 +2,23 @@
 /* Photo Slideshow
 ------------------------------------------------------ */
 var slideIndex = 1;
-function initSlides(slideName){
-  showSlides(1,slideName);
+function initSlides(){
+  showSlides(1);
 }
 
 // Next/previous controls
-function plusSlides(n,slideName) {
-  showSlides(slideIndex += n, slideName);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n, slideName);
+  showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName(slideName);
+  var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
