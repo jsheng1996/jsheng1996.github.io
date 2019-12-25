@@ -2604,7 +2604,11 @@ footer .copyright span:last-child::after {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides_msb {
+  display: none;
+}
+
+.mySlides_ak {
   display: none;
 }
 

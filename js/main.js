@@ -208,8 +208,10 @@
     /*---------------------------------------------------- */
     /* Photo Slideshow
     ------------------------------------------------------ */
-    var slideIndex = 1;
-    showSlides(slideIndex);
+    var slideIndex_ak = 1;
+    var slideIndex_msb = 1
+    showSlides_ak(1);
+    showSlides_msb(1);
 
 
    /*---------------------------------------------------- */
